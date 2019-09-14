@@ -1,6 +1,6 @@
 import React from "react";
 import { useDarkMode } from "../Hooks/useDarkMode";
-import { Button, Icon, Segment } from "semantic-ui-react";
+import { Button } from "semantic-ui-react";
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useDarkMode(false);
