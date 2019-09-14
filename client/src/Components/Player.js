@@ -1,6 +1,6 @@
 import React from "react";
 
-const Player = ({ country, key, name, searches }) => {
+const Player = ({ country, name, searches }) => {
   return (
     <section>
       <h2>{name}</h2>

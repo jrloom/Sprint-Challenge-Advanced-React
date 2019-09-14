@@ -5,7 +5,7 @@ const ListPlayers = ({ players }) => {
   return (
     <div>
       {players.map(player => (
-        <Player key={player.id} name={player.name} country={player.country} searches={player.searches} />
+        <Player country={player.country} key={player.id} name={player.name} searches={player.searches} />
       ))}
     </div>
   );
