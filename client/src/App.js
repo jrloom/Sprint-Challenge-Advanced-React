@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
 import ListPlayers from "./Components/ListPlayers";
 import "./App.css";
 
@@ -15,6 +16,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <Navbar />
         <ListPlayers players={this.state.data} />
       </div>
     );
